@@ -1,0 +1,70 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+.theme {
+
+background: url("../img/signin_background2.jpg");
+background-repeat: no-repeat;
+background-size:cover;
+
+}
+
+.welcome_nav {
+  background: url("../img/signin_background2.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer .footer-copyright {
+  background-color: #ff9800 !important;
+}
+
+.welcome-categ {
+  color: #e1f5fe;
+}
+
+#ncbi-news{
+  overflow-y: scroll;
+  height: 80%;
+  /*background-color: grey;*/
+}
+
+#products{
+  margin-bottom: 5px;
+  min-height: 80px;*/
+  /*font-size: 0.8em;*/
+}
+#products img {
+  width:40px;
+  height:50px ;
+  vertical-align:text-bottom;
+}
+
+#prod_container {
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+#ncbi-news h5 {
+  color:rgb(17, 46, 94);
+}
+
+#prod_name {
+  color:rgb(13, 64, 26);
+}
+
+.user_name{
+  margin: 0px 15px;
+  color: darkblue;
+  font-weight: bold;
+}
